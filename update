@@ -1,0 +1,235 @@
+#!/bin/bash
+# User Status
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userlist
+mv ./userlist /usr/local/bin/userlist
+chmod +x /usr/local/bin/userlist
+
+# instal Buat Akun SSH/OpenVPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/buatakun
+mv ./buatakun /usr/bin/buatakun
+chmod +x /usr/bin/buatakun
+
+# instal Generate Akun SSH/OpenVPN
+cd
+wget http://autoscriptnobita.tk/configdual7m/generate
+mv ./generate /usr/bin/generate
+chmod +x /usr/bin/generate
+
+# instal Generate Akun Trial
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/trial
+mv ./trial /usr/bin/trial
+chmod +x /usr/bin/trial
+
+# instal  Ganti Password Akun SSH/VPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userpassword
+mv ./userpassword /usr/bin/userpassword
+chmod +x /usr/bin/userpassword
+
+# instal Generate Akun SSH/OpenVPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/alluserpptp
+mv ./alluserpptp /usr/bin/alluserpptp
+chmod +x /usr/bin/alluserpptp
+
+# instal Hapus Akun SSH/OpenVPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/autokill
+mv ./autokill /usr/bin/autokill
+chmod +x /usr/bin/autokill
+
+# instal Cek Login Dropbear & OpenSSH
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/autoreboot
+mv ./autoreboot /usr/bin/autoreboot
+chmod +x /usr/bin/userlogin
+
+# instal Cek Login Dropbear, OpenSSH & OpenVPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/benchnetwork
+mv ./benchnetwork /usr/bin/benchnetwork
+chmod +x /usr/bin/benchnetwork
+
+# instal Auto Limit Multi Login
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/editportdropbear
+mv ./editportdropbear /usr/bin/editportdropbear
+chmod +x /usr/bin/editportdropbear
+
+# instal Auto Limit Script Multi Login
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/editportopenssh
+mv ./editportopenssh /usr/bin/editportopenssh
+chmod +x /usr/bin/editportopenssh
+# instal Melihat detail user SSH & OpenVPN 
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/editportopenvpn
+mv ./editportopenvpn /usr/bin/editportopenvpn
+chmod +x /usr/bin/editportopenvpn
+
+# instal Delete Akun Expire
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/editportsquid
+mv ./editportsquid /usr/bin/editportsquid
+chmod +x /usr/bin/editportsquid
+
+# instal  Kill Multi Login
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/listpassword
+mv ./listpassword /usr/bin/listpassword
+chmod +x /usr/bin/listpassword
+
+# instal Auto Banned Akun
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/logban
+mv ./logban /usr/bin/logban
+chmod +x /usr/bin/logban
+
+# instal Unbanned Akun
+cd
+wget http://autoscriptnobita.tk/configdual7m/userunban
+mv ./userunban /usr/bin/userunban
+chmod +x /usr/bin/userunban
+
+# instal Mengunci Akun SSH & OpenVPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/loginstall
+mv ./loginstall /usr/bin/loginstall
+chmod +x /usr/bin/loginstall
+
+# instal Membuka user SSH & OpenVPN yang terkunci
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/loglimit
+mv ./loglimit /usr/bin/loglimit
+chmod +x /usr/bin/loglimit
+
+# instal Melihat daftar user yang terkick oleh perintah user-limit
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/ram
+mv ./ram /usr/bin/ram
+chmod +x /usr/bin/ram
+
+# instal Melihat daftar user yang terbanned oleh perintah user-ban
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/useraddpptp
+mv ./useraddpptp /usr/bin/useraddpptp
+chmod +x /usr/bin/useraddpptp
+
+# instal Buat Akun PPTP VPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/useraktif
+mv ./useraktif /usr/bin/useraktif
+chmod +x /usr/bin/useraktif
+
+# instal Hapus Akun PPTP VPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userautolimitscript
+mv ./userautolimitscript /usr/bin/userautolimitscript
+chmod +x /usr/bin/userautolimitscript
+
+# instal Lihat Detail Akun PPTP VPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userban
+mv ./userban /usr/bin/userban
+chmod +x /usr/bin/userban
+
+# instal Cek login PPTP VPN
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userdeleteexpired
+mv ./userdeleteexpired /usr/bin/userdeleteexpired
+chmod +x /usr/bin/userdeleteexpired
+
+# instal Lihat Daftar User PPTP VPN
+cd
+wget http://autoscriptnobita.tk/configdual7malluserpptp
+mv ./alluserpptp /usr/bin/alluserpptp
+chmod +x /usr/bin/alluserpptp
+
+# instal Set Auto Reboot
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userdeletepptp
+mv ./userdeletepptp /usr/bin/userdeletepptp
+chmod +x /usr/bin/userdeletepptp
+
+# Install SPEED tES
+apt-get install python
+wget https://raw.githubusercontent.com/ehomecore/new/master/userdetail
+mv ./userdetail /usr/bin/userdetail
+chmod +x userdetail
+
+# instal autolimitscript
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userexpire
+mv ./userexpire/usr/bin/userexpire
+chmod +x /usr/bin/userexpire
+
+
+# instal userdelete
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/usergenerate
+mv ./usergenerate /usr/bin/usergenerate
+chmod +x /usr/bin/usergenerate
+
+
+# instal autolimitscript
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userlimit
+mv ./userlimit/usr/bin/userlimit
+chmod +x /usr/bin/userlimit
+
+
+# instal userdelete
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userunlock
+mv ./userunlock /usr/bin/userunlock
+chmod +x /usr/bin/userunlock
+
+
+# instal autolimitscript
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userlog
+mv ./userlog/usr/bin/userlog
+chmod +x /usr/bin/userlog
+
+
+# instal userdelete
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userlogin
+mv ./userlogin /usr/bin/userlogin
+chmod +x /usr/bin/userlogin
+
+
+# instal userdelete
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userban
+mv ./userban /usr/bin/userban
+chmod +x /usr/bin/userban
+
+
+# instal userdelete
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/userunlock
+mv ./userunlock /usr/bin/userunlock
+chmod +x /usr/bin/userunlock
+
+
+# Install Menu
+cd
+wget https://raw.githubusercontent.com/ehomecore/new/master/menu
+mv ./menu /usr/local/bin/menu
+chmod +x /usr/local/bin/menu
+
+rm -f /root/iplist.txt
+
+rm -f /root/update
+
+rm -f /root/debian7latest.sh
+
+rm -f /root/debian7latest.sh.x
+
+rm -f /root/ddos-deflate-master.zip
+
+rm -f /root/.bash_history && history -c
