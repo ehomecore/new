@@ -1,0 +1,133 @@
+#!/bin/bash
+
+
+cd
+
+sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
+
+sed -i '$ i\screen -AmdS ban /root/ban.sh' /etc/rc.local
+
+sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.d/rc.local
+
+sed -i '$ i\screen -AmdS ban /root/ban.sh' /etc/rc.d/rc.local
+
+echo "0 0 * * * root /usr/local/bin/user-expire" > /etc/cron.d/user-expire
+
+echo "0 0 * * * root /usr/local/bin/user-expire-pptp" > /etc/cron.d/user-expire-pptp
+
+
+cat > /root/ban.sh <<END3
+#!/bin/bash
+#/usr/local/bin/user-ban
+END3
+
+
+cat > /root/limit.sh <<END3
+#!/bin/bash
+#/usr/local/bin/user-limit
+END3
+
+
+cd /usr/local/bin
+
+wget -O premium-script.tar.gz "https://raw.githubusercontent.com/ehomecore/new/master/premium-script.tar.gz"
+
+tar -xvf premium-script.tar.gz
+
+rm -f premium-script.tar.gz
+
+
+cp /usr/local/bin/premium-script /usr/local/bin/menu
+
+
+chmod +x /usr/local/bin/trial
+
+chmod +x /usr/local/bin/useradd
+
+chmod +x /usr/local/bin/useraktif
+
+chmod +x /usr/local/bin/userban
+
+chmod +x /usr/local/bin/userdelete
+
+chmod +x /usr/local/bin/userdetail
+
+chmod +x /usr/local/bin/userexpire
+
+chmod +x /usr/local/bin/userlimit
+
+chmod +x /usr/local/bin/userlock
+
+chmod +x /usr/local/bin/userlogin
+
+chmod +x /usr/local/bin/userunban
+
+chmod +x /usr/local/bin/user-unlock
+
+chmod +x /usr/local/bin/user-password
+
+chmod +x /usr/local/bin/userlog
+
+chmod +x /usr/local/bin/useradd-pptp
+
+chmod +x /usr/local/bin/userdeletepptp
+
+chmod +x /usr/local/bin/alluserpptp
+
+chmod +x /usr/local/bin/userloginpptp
+
+chmod +x /usr/local/bin/userexpirepptp
+
+chmod +x /usr/local/bin/userdetailpptp
+
+chmod +x /usr/local/bin/benchnetwork
+
+chmod +x /usr/local/bin/speedtest
+
+chmod +x /usr/local/bin/ram
+
+chmod +x /usr/local/bin/loglimit
+
+chmod +x /usr/local/bin/logban
+
+chmod +x /usr/local/bin/usergenerate
+
+chmod +x /usr/local/bin/userlist
+
+chmod +x /usr/local/bin/diagnosa
+
+chmod +x /usr/local/bin/premiumscript
+
+chmod +x /usr/local/bin/userdeleteexpired
+
+chmod +x /usr/local/bin/autoreboot
+
+chmod +x /usr/local/bin/log-nstall
+
+chmod +x /usr/local/bin/menu
+
+chmod +x /usr/local/bin/userautolimit
+
+chmod +x /usr/local/bin/userautolimitscript
+
+chmod +x /usr/local/bin/editport
+
+chmod +x /usr/local/bin/editportsquid
+
+chmod +x /usr/local/bin/editportopenvpn
+
+chmod +x /usr/local/bin/editportopenssh
+
+chmod +x /usr/local/bin/editportdropbear
+
+chmod +x /usr/local/bin/autokill
+
+chmod +x /root/limit.sh
+
+chmod +x /root/ban.sh
+
+screen -AmdS limit /root/limit.sh
+
+screen -AmdS ban /root/ban.sh
+
+clear
